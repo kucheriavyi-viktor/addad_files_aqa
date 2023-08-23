@@ -9,7 +9,7 @@ console.log (stringHowU)
 
 let stringTextOne = 'Hello'
 let stringTextTwo = 'Word'
-console.log (stringTextOne + stringTextTwo)
+console.log (stringTextOne, stringTextTwo)
 
 
 
