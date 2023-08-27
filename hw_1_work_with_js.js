@@ -7,9 +7,15 @@ console.log (stringHowU)
 
 //№2 створити 2 зміні зі значеннями ''Hello" і "World", створити команду для виведення в консоль цих слів разом
 
-let stringTextOne = 'Hello'
-let stringTextTwo = 'Word'
-console.log (stringTextOne + stringTextTwo)
+let stringTextOne = 'Hello', stringTextTwo = 'Word'
+let stringText = `${stringTextOne} ${stringTextTwo}`
+console.log (stringText)
+
+//let stringTextOne = 'Hello', stringTextTwo = 'Word'
+//console.log (stringText + ' ' + stringTextTwo)
+
+// let stringTextOne = 'Hello', stringTextTwo = 'Word'
+// console.log (stringTextOne, stringTextTwo)
 
 
 
@@ -34,4 +40,3 @@ console.log (typeof (myVariable))
 let stringSomeName = "name"
 let stringSomeText = `hello ${stringSomeName}` 
 console.log(stringSomeText)
-
