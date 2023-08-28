@@ -30,5 +30,5 @@ let a = 5 + 6
 console.log(a)
 
 //create variable that should be 'false' with using equality operator
-let operEqual = x === y
+let operEqual = x == y
 console.log(operEqual)
