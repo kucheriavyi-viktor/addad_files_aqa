@@ -1,4 +1,4 @@
-// let num = 10
+let num = 1
 // while (num <= 7) {
 //     console.log(num)
 //     num++
@@ -24,3 +24,28 @@ for (let i = 0; i < 7; i+=2) {
     sumOfloop += i
 }
 console.log(sumOfloop)
+
+// for (let i = 0; i <= num; i+=2) {
+//     if (i == 6) continue
+//     console.log(i)
+//     sumOfloop += i
+// }
+// console.log(sumOfloop)
+
+// for in  //objects
+// for of //arays
+
+// const obj1 = { prop1:1, prop2:2, prop3:'value3'}
+// for (let prop in obj1) {
+//     console.log(prop)
+//     console.log(`${obj1[prop]}`)
+//     if (`${obj1[prop]}` == 'New'){
+//         console.log()
+//     }
+// }
+
+// const arr1 = ['valar1', 'valar2', 'valar3']
+
+// for (let valOfArr of arr1){
+//     console.log(valOfArr)
+// }
