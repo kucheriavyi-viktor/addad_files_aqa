@@ -17,3 +17,5 @@ function isUpCase(str) {
     return true;
     }
     console.log(char.isUpCase)  
+
+function chhckL(text)
